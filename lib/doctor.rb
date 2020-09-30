@@ -20,6 +20,6 @@ class Doctor
   end
   
   def patients
-    appointmnets.collect { |appt|appt.patient}
+   appointment.collect{ |appt| appt.patient}
   end
 end
